@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mein Titel</title>
+    </head>
+    <body>
+        <form>
+            <p>Geburtsdatum:
+                <input type="date" placeholder="tt.mm.jjjj"></p>
+
+            <p>Lieblingsfarbe:
+                <input type="color" value="black"></p>
+
+            <p>Anzahl (1-10):
+                <input type="range" value="tt.mm.jjjj"></p>
+
+            <p>E-mail-Adr.:
+                <input type="text" name="Email-Adresse" placeholder="test@test.de" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"></p>
+
+            <p>Wähle Zahl:
+                <select>
+                    <option>10</option>
+                    <option>20</option>
+                    <option>30</option>
+                    <option>40</option>
+                    <option>50</option>
+                    <option>60</option>
+                    <option>70</option>
+                    <option>80</option>
+                    <option>90</option>
+                    <option>100</option>
+                </select>
+            (10er-Schritte)</p>
+
+            <p>Passwort:
+                <input type="password" ></p>
+
+            <p>Suche nach:
+                <input type="search" placeholder="Search" id="search">
+                <input type="button" onclick="document.getElementById('search').value =''" value="X"></p>
+
+            <input type="button" value="Daten absenden">
+        </form>
+        
+    </body>
+</html> 

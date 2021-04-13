@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+        <title>Mein erstes Formular</title>
+        
+    </head>
+
+    <body>
+        <h1>Mein erstes Forular</h1>
+
+        <h2>Umfrage zur Verastaltung<br>"Webtechnologien"</h2>
+
+        <form action="http://www.webserver.de/verarbeitung.php" method="get">
+            <p>Vorname:<input type="text" value="Dein Vorname" name="vorname"></p>
+            <p>Nachname:<input type="text" value="Dein Nachname" name="nachname"></p>
+
+            <p>Semester:
+                <input type="radio" id="11" name="semester" value="1">
+                    <label for="11">1</label>
+                <input type="radio" id="12" name="semester" value="2">
+                    <label for="21">2</label>
+                <input type="radio" id="13" name="semester" value="3">
+                    <label for="13">3</label>
+                <input type="radio" id="14" name="semester" value="4">
+                    <label for="14">4</label>
+            </p>
+
+            <p>Aktivitäten außerhalb der Vorlesung:</p>
+            <input type="checkbox" id="21" name="semester" value="täglicher Blick ins Script">
+                <label for="21">täglicher Blick ins Script</label>
+            <input type="checkbox" id="22" name="semester" value="2">
+                <label for="22">2</label>
+            <input type="checkbox" id="23" name="semester" value="3">
+                <label for="23">3</label>
+                 
+            <p>Was hat Dir bisher am besten gefallen? <br><textarea name="comment" rows="8" cols="80">Also...</textarea> </p>
+            
+            <input type="submit" name="submit1" value="OK">
+
+        </form>
+    </body>
+
+</html>
