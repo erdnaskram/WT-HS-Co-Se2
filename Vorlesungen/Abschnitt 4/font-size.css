@@ -1,0 +1,57 @@
+
+:root{
+    background-color: #e5e5dc;
+    font-size: 24px;
+}
+
+h1 {
+    background-color: #26495c;
+    color: #c4a35a;
+    padding: 20px;
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+.center {
+    margin: auto;
+    width: fit-content;
+}
+
+
+#prozent div{
+    font-size: 80%;
+}
+
+#prozent h2 {
+    color: #26495c;
+}
+
+#em div{
+    font-size: 0.8em;
+}
+
+#em h2 {
+    color: #c4a35a;
+}
+
+#rem div{
+    font-size: 0.8rem;
+}
+
+#rem h2 {
+    color: #c66b3d;
+}
+
+footer{
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 30px;
+    color: #26495c;
+}
+
+footer p{
+    margin: 5px;;
+}
