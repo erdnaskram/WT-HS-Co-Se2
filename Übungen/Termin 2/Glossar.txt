@@ -1,0 +1,41 @@
+_blank
+Auszeichnung von Hyperlinks über das Attribut target="_blank"; das Verweisziel wird in einem separaten Fenster bzw. separaten Browser-Tab geöffnet.
+
+_self
+Auszeichnung von Hyperlinks über das Attribut target="_self"; dies ist der Default-Wert; das Verweisziel wird im selben bzw. aktuellen Fenster bzw. Browser-Tab geöffnet.
+
+.
+Bezeichnung für aktuellen Knoten, z.B. für aktuelles Verzeichnis im Dateisystem.
+
+
+A
+
+ANSI-Zeichensatz
+Ein international standardisierter Zeichensatz.
+Umlaute und andere Sonderzeichen sind möglich.
+
+ASCII-Zeichensatz
+Ein standardisierter 7-Bit Zeichensatz.
+
+
+B
+
+Baud
+Gibt bei analogen Datenübertragungen die Anzahl der Signalwechsel pro Sekunde an.
+
+B-Kanal
+Einer von drei Kanälen eines ISDN-Anschlusses
+
+Bounced E-Mail
+Fehlerhaft adressierte und daher an den Ansender zurückgesandte E-Mail-Nachricht.
+
+
+C
+
+...
+...
+
+X,Y,Z
+
+XML
+Extensible Markup Language. Metasprache zur Definition von Markup-Sprachen wie z.B. HTML oder XHTML.

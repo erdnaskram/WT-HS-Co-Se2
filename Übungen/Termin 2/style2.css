@@ -1,0 +1,23 @@
+
+
+header{
+    text-align: center;
+    background-color: #ffff66;
+}
+
+#middle{
+    background-color: aqua;
+    overflow: scroll;
+    padding: 20px;
+    border: 20px solid black;
+}
+
+#bottom{
+    background-color: silver;
+    overflow: scroll;
+    margin: 40px;
+}
+
+div{
+    height: 200px;
+}
