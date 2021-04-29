@@ -48,9 +48,14 @@ a{
     width: 100%;
     min-height: 100%;
     margin: 0px auto;
+    border-radius: 1em;
     justify-content: space-around;
     animation: grow 5s infinite;
     -webkit-animation: grow 5s infinite;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
 }
 
 .menu-icon {
