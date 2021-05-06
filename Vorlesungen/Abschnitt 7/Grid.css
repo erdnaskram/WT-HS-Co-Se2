@@ -1,0 +1,14 @@
+
+
+.wrapper{
+    display: grid;
+    background-color: dimgrey;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+}
+
+.wrapper div {
+    background-color: blueviolet;
+    text-align: center;
+    min-height: 30px;
+}

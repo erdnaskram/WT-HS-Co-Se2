@@ -1,0 +1,108 @@
+
+html{
+    background-color: gray;
+    margin: 0px;
+}
+
+body{
+    background-color: bisque;
+    margin: 5px;
+}
+
+.header {
+    grid-area: header;
+}
+.menu {
+    grid-area: menu;
+}
+.content {
+    grid-area: content;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.footer {
+    grid-area: footer;
+}
+
+
+    /*background-color: #00ff3f;*/
+    /*background-color: #35b5ff;*/
+    /*background-color: #fffb38;*/
+    /*background-color: #ff479c;*/
+
+.wrapper{
+    background-color: beige;
+    color: #444;
+    margin: 0px;
+}
+
+.wrapper{
+    display: grid;
+    grid-gap: 0.5em;
+    min-width: 100%;
+    grid-template-areas:
+    "header"
+    "menu"
+    "content"
+    "sidebar"
+    "footer"
+}
+
+@media only screen and (min-width: 500px)  {
+	.wrapper {
+		grid-template-columns: 20% auto;
+		grid-template-areas:
+        "header   header"
+		"menu  content"
+		"sidebar sidebar"
+		"footer   footer";
+	}
+}
+
+@media only screen and (min-width: 600px)   {
+    .wrapper {
+        grid-gap: 10px;
+        grid-template-columns: 120px auto 120px;
+        grid-template-areas:
+        "header  header  header"
+        "menu content sidebar"
+        "footer  footer  footer";
+        max-width: 600px;
+    }
+}
+
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+}
+
+.header, .footer{
+    background-color: #00ff3f;
+    text-align: center;
+}
+
+.menu{
+    background-color: #35b5ff;
+}
+
+.content{
+    background-color: #fffb38;
+    min-height: 30em;
+}
+
+.sidebar{
+    background-color: #ff479c;
+}
+
+
+
+.footer p, .footer h4{
+    margin: 0px;
+    margin-top: 5px;
+}
