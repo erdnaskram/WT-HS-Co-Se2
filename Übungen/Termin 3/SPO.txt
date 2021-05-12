@@ -1,0 +1,59 @@
+Studien- und Prüfungsordnung für den Bachelorstudiengang Informatik
+an der Hochschule für angewandte Wissenschaften Coburg (SPO B IF)
+Vom 25. Juni 2014
+
+Auf Grund von Art.13 Abs.1, 43, 44, 58 Abs.1, 61 Abs.2 und 8 und 66 des Bayerischen Hochschulgesetzes –BayHSchG– (BayRS 2210–1–1–WFK) erlässt die Hochschule für angewandte Wissenschaften Coburg folgende Satzung:
+
+§ 1
+Zweck der Studien– und Prüfungsordnung
+1Diese Studien– und Prüfungsordnung regelt den Bachelorstudiengang Informatik an der Hochschule für angewandte Wissenschaften Coburg. 2Sie dient der Ausfüllung und Ergänzung der Rahmenprüfungsordnung für die Fachhochschulen (RaPO) vom 17. Oktober 2001 (BayRS 2210–4–1–4–1 WFK) und der Allgemeinen Prüfungsordnung der Hochschule für angewandte Wissenschaften Coburg (APO) vom 14. November 2013 (Amtsblatt 2013) in der jeweiligen Fassung.
+§ 2
+Studienziel
+1Ziel des Bachelorstudiums ist die Vermittlung der Befähigung zur selbständigen Anwendung wissenschaftlicher Erkenntnisse und Methoden in der Informatik. 2Der Breite und Vielfalt der Informatik wird durch eine umfassende Grundlagenausbildung sowie der Spezialisierungsmöglichkeit in eine der angebotenen Vertiefungsrichtungen Rechnung getragen. 3Das Studium soll dazu befähigen, sich rasch in eines der zahlreichen Anwendungsgebiete einzuarbeiten, sich neue Gebiete zu erschließen und sich selbständig weiterzubilden. 4Der Bachelorabschluss befähigt insbesondere zur Übernahme anwendungsorientierter Fach– und Führungsaufgaben im Bereich der Informatik. 5Der erfolgreiche Abschluss soll es ermöglichen, das Studium in einem Masterstudiengang national oder international fortzusetzen.
+§ 3
+Regelstudienzeit, Aufbau des Studiums,
+Vertiefungsrichtungen
+(1) Die Regelstudienzeit beträgt sieben Studiensemester.
+(2) Der Aufbau des Studiums ergibt sich aus der Anlage zu dieser Studien- und Prüfungsordnung.
+(3)1Eine Vertiefungsrichtung ist eine Gruppe von fachlich zusammengehörenden Modulen, in denen ein bestimmtes Fachgebiet vertieft wird. 2Module einer Vertiefungsrichtung werden als fachwissenschaftliche Wahlpflichtmodule nach Maßgabe des Studien- und Prüfungsplans ab dem dritten Studiensemester geführt. 3Als Vertiefungsrichtungen werden angeboten:
+1. Software-Techniken (S)
+2. Embedded Systems (E)
+3. Wirtschaftsinformatik (W)
+4Ein Anspruch darauf, dass einzelne Vertiefungsrichtungen durchgeführt werden, besteht nicht. 5Die Prüfungskommission erkennt auf Antrag des Studierenden die Ableistung einer Vertiefungsrichtung nach Satz 3 an, wenn mindestens 40 Leistungspunkte (ECTS) aus einer einzelnen Vertiefungsrichtung nachgewiesen werden. 6Dieser Antrag ist zusammen mit der (ersten) Anmeldung zur Bachelorarbeit zu stellen; Anträge nach diesem Zeitpunkt sind ausgeschlossen (Ausschlussfrist). 7Wird kein Antrag oder ein Antrag nach diesem Zeitpunkt gestellt oder ist ein Antrag abzulehnen, wird im Bachelorprüfungszeugnis keine Vertiefungsrichtung ausgewiesen. 8Die Entscheidung der Prüfungskommission erfolgt mit Anerkennungsvermerk zeitgleich mit der Anmeldung der Bachelorarbeit, der Studierenden und Prüfungsamt unverzüglich zuzuleiten ist.
+(4)1Die Fakultät informiert Studierende spätestens zu Beginn des dritten Studiensemesters über angebotene Vertiefungsrichtungen und zugehörige Module. 2Die Festlegung erfolgt im Studien- und Prüfungsplan.
+§ 4
+Module und Prüfungen,
+Notenbildung, Prüfungsgesamtnote
+(1)1Die Pflicht- und Wahlpflichtmodule, ihre Stundenzahl, die Art der Lehrveranstaltung, die Prüfungen, deren Gewicht für die Bildung der End- und Prüfungsgesamtnote und der Divisor sowie die Leistungspunkte (ECTS) sind in der Anlage zu dieser SPO festgelegt. 2Die Regelungen werden für die Module durch den Studien- und Prüfungsplan ergänzt.
+(2) Die Benotung der Abschlussarbeit und aller Modulprüfungen der Anlage zu dieser SPO erfolgt nach folgender Notendifferenzierung: 1,0 – 1,3 – 1,7 – 2,0 – 2,3 – 2,7 – 3,0 – 3,3 – 3,7 – 4,0 – 5,0.
+§ 5
+Vorrückensberechtigungen,
+Fristen für das erstmalige Ablegen
+(1)1Zum Eintritt in den zweiten Studienabschnitt ist nur berechtigt, wer in den Modulen „Analysis“, „Grundlagen der Informatik“ und „Programmieren 1“ die Endnote „ausreichend“ oder besser erzielt hat. 2Diese Prüfungen sind bis zum Ende des zweiten Fachsemesters zu erbringen, andernfalls gelten sie als erstmals abgelegt und nicht bestanden.
+(2) Zum Eintritt in den dritten Studienabschnitt ist nur berechtigt, wer die Voraussetzung zum Eintritt in den zweiten Studienabschnitt nach Absatz 1 erfüllt und in den Modulen „Diskrete Mathematik“, „Rechnerarchitekturen“ sowie „Programmieren 2“ die Endnote „ausreichend“ oder besser erzielt hat.
+(3) Die Prüfungen des ersten und zweiten Studienabschnitts sind bis zum Ende des sechsten Fachsemesters zu erbringen, andernfalls gelten sie als erstmals abgelegt und nicht bestanden.
+§ 6
+Fachstudienberatung
+Wurde nach drei Fachsemestern in allen in § 5 Abs. 1 genannten Prüfungen nicht die Endnote „ausreichend“ oder besser erzielt, so besteht die Verpflichtung den Fachstudienberater aufzusuchen.
+§ 7
+Praktisches Studiensemester
+1Das praktische Studiensemester, das als fünftes Studiensemester geführt wird, umfasst 20 Wochen reine Praxis in Vollzeittätigkeit und zwei Wochen Praxis begleitende Lehrveranstaltungen. 2Das praktische Studiensemester ist erfolgreich abgeleistet, wenn
+1. die Ableistung der Praxiszeit durch ein Zeugnis der Ausbildungsstelle, das dem von der Hochschule vorgegebenem Muster entspricht, nachgewiesen ist,
+2. ein ordnungsgemäßer Praxisbericht vorgelegt wurde und 3. die erforderlichen Praxisprüfungen erfolgreich abgelegt wurden.
+§ 8
+Bachelorarbeit
+1Das Studium umfasst eine Bachelorarbeit. 2Die Anmeldung zur Bachelorarbeit ist nur zulässig, wenn alle Prüfungen des ersten und zweiten Studienabschnitts bestanden sind und die Leistungen des praktischen Studiensemesters nach § 7 Satz 2 Nrn. 1 und 2 erfolgreich erbracht wurden. 3Die Frist von der Anmeldung bis zur Abgabe beträgt vier Monate.
+§ 9
+Bachelorprüfungszeugnis,
+Akademischer Grad
+1Über den erfolgreichen Abschluss des Studiums werden ein Bachelorprüfungszeugnis und eine Urkunde mit dem erworbenen akademischen Grad gemäß dem jeweiligen Muster in der Anlage zur APO ausgestellt. 2Auf Grund des erfolgreichen Abschlusses der Bachelorprüfung wird der akademische Grad „Bachelor of Science“ Kurzform: „(B.Sc.)“, verliehen. 3Eine gemäß § 3 Abs.3 anerkannte Vertiefungsrichtung wird als Zusatz zur Bezeichnung des Studiengangs in das Zeugnis aufgenommen.
+§ 10
+InKraft-Treten, Übergangsbestimmungen,
+AußerKraft-Treten
+(1)1Diese Studien– und Prüfungsordnung tritt am 1. Oktober 2014 in Kraft. 2Sie gilt für Studierende, die ihr Studium nach dem Sommersemester 2014 aufnehmen.
+(2) Für Studierende, die ihr Studium vor dem Wintersemester 2014/2015 aufgenommen haben, findet die Studien– und Prüfungsordnung für den Bachelorstudiengang Informatik an der Hochschule für angewandte Wissenschaften Fachhochschule Coburg vom 22. Juli 2009 (Amtsblatt 2009) Anwendung; im Übrigen tritt diese außer Kraft.
+(3)1Für Studierende, für die die in Absatz 2 genannte SPO gilt, werden
+1. Lehrveranstaltungen beginnend mit dem dritten Studiensemester letztmalig im Wintersemester 2014/2015 und endend mit dem siebten Studiensemester letztmalig im Wintersemester 2016/17,
+2. (Wiederholungs-)Prüfungen beginnend mit dem dritten Studiensemester letztmalig im Sommersemester 2017 und endend mit dem siebten Studiensemester letztmalig im Sommersemester 2019 angeboten.
+2Studierende, die auf Grund des Satzes 1 Nr. 2 ihr Studium nicht beenden können und keine Prüfung endgültig nicht bestanden haben, werden von Amts wegen durch die Prüfungskommission in die Studien- und Prüfungsordnung nach Absatz 1 überführt.
+(4) Soweit dies zur Vermeidung von Härten im Zusammenhang mit der Neuordnung des Studiengangs notwendig ist, kann der Fakultätsrat allgemein oder im Einzelfall besondere Regelungen für das Studium, die Prüfungskommission besondere Regelungen für Prüfungen treffen.
