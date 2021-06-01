@@ -1,0 +1,150 @@
+:root {
+  --akzent1: #d80030;
+  --darkgray: #4b564e;
+  --lightgray: #eaebeb;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-image: url("./img/day.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: 700px;
+  width: 100%;
+  height: 400px;
+}
+
+#name {
+    position: absolute;
+  background-color: #f1dbc4;
+  width: 300px;
+  top: 100px;
+}
+#name hr {
+  background-color: #033e84;
+  color: #033e84;
+  height: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 0px;
+}
+#name h2{
+    margin: 3px;
+}
+
+nav {
+  background-color: #666;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7fbcf3;
+}
+
+nav ul > li {
+  float: left;
+  width: 25%;
+  border-right: 2px solid #eaebeb;
+}
+nav > ul :last-child{
+    border: 0;
+}
+nav li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #444;
+}
+.active {
+  background-color: #3d4212;
+}
+
+.personal ul > li{
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.personal ul > li > a, .personal ul > li > strong{
+    margin-bottom: 20px;
+}
+
+footer {
+  background-color: #666;
+}
+
+
+.personal {
+  grid-area: personal;
+}
+
+.career {
+  grid-area: career;
+}
+
+.blog {
+  grid-area: blog;
+}
+
+.wrapper {
+  width: 100%;
+
+  display: grid;
+  grid-gap: 1em;
+  grid-template-areas:
+    "personal"
+    "career"
+    "blog";
+}
+
+@media only screen and (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "personal"
+      "career"
+      "blog";
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    grid-gap: 20px;
+    grid-template-columns: auto 35%;
+    grid-template-areas:
+      "personal  blog"
+      "career blog";
+  }
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.personal {
+  background-color: #999;
+}
+
+.blog {
+  background-color: #ccc;
+  color: #444;
+}
