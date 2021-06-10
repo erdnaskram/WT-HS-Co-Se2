@@ -4,29 +4,49 @@ let anzeige = "";
 
 function start() {
 
-    durchlauf(document.body);
+    durchlauf(document.body, 0);
 
     let tree = document.createElement("p");
 	tree.innerHTML = anzeige;
 	document.body.appendChild(tree);
 }
 
-function durchlauf(currNode) {
-    dataOutput(currNode);
+function durchlauf(currNode, depth) {
+    if (!is_ignorable(currNode)){
+        dataOutput(currNode, depth);
+        depth += 4;
+    }
 
     let childList = currNode.childNodes;
     for (let child of childList){
         console.log(child);
-        durchlauf(child);
+        durchlauf(child, depth);
     }
 }
 
-function dataOutput(currNode) {
-    anzeige += "Type: " + convertTypeToString(currNode.nodeType) + " Name: " + currNode.nodeName + " Value: " + currNode.nodeValue + "<br/>";
+function dataOutput(currNode, depth) {
+    // Orginalpfeil: "&#9492;&#9472"
+    let spaces = "";
+    while(depth > 0){
+        spaces += "&nbsp;"
+        depth--;
+    }
+
+    if (convertTypeToString(currNode.nodeType) == "Element_Node"){
+        anzeige += spaces + "↳" + currNode.nodeName + " (" + convertTypeToString(currNode.nodeType) + "): " + currNode.nodeValue + "<br>";
+    } else if (convertTypeToString(currNode.nodeType) == "Text_Node"){
+        anzeige += spaces + "↳#text (" + convertTypeToString(currNode.nodeType) + "): " + currNode.nodeValue + "<br/>";
+    }
+
+    depth += 4;
+    while(depth > 0){
+        spaces += "&nbsp;"
+        depth--;
+    }
 
     if(currNode.hasAttributes){
         for (let attribute of currNode.attributes)
-            anzeige += attribute.nodeName + " " + attribute.value + "<br/>";
+            anzeige += spaces + "↳Attr "+attribute.nodeName + " = " + attribute.value + "<br>";
     }
 }
 
@@ -40,6 +60,18 @@ function convertTypeToString(type){
         case 3:
             return "Text_Node";
     }
+}
+
+function is_all_ws(nod){
+    // Use ECMA-262 Edition 3 String and RegExp features
+    return !(/[^\t\n\r ]/.test(nod.textContent));
+}
+
+function is_ignorable(nod){
+    return (nod.nodeType == 8) || // Kommentar-Knoten
+    (nod.nodeName == "SCRIPT") || // Skript-Knoten
+    (nod.nodeName == "BODY") || // BODY-Knoten
+    ((nod.nodeType == 3) && is_all_ws(nod)); // Text-Knoten, alles ws
 }
 
 
