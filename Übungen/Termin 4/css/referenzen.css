@@ -1,0 +1,87 @@
+
+.line{
+  background-color: #eaebeb;
+  margin-top: 0;
+  height: 2px;
+}
+
+.personal ul :last-child{
+  margin-bottom: 24px;
+}
+.personal ul > li{
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.personal ul > li > a, .personal ul > li > strong{
+    margin-bottom: 20px;
+}
+
+.career ul > li{
+  list-style-type: none;
+}
+.career ul > li > p, .career ul > li > strong{
+  margin-top: 0;
+}
+
+.personal {
+  grid-area: personal;
+}
+
+.career {
+  grid-area: career;
+}
+
+.blog {
+  grid-area: blog;
+}
+
+.wrapper {
+  margin: 1em;
+  /* margin-left: 1em; */
+  /* width: 90%; */
+
+  display: grid;
+  grid-gap: 1em;
+  grid-template-areas:
+    "personal"
+    "career"
+    "blog";
+}
+
+@media only screen and (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "personal"
+      "career"
+      "blog";
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    grid-gap: 20px;
+    grid-template-columns: auto 35%;
+    grid-template-areas:
+      "personal  blog"
+      "career blog";
+  }
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.personal {
+  background-color: #999;
+}
+
+.blog {
+  background-color: #ccc;
+  color: #444;
+}

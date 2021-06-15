@@ -1,0 +1,85 @@
+
+.line{
+  background-color: #eaebeb;
+  margin-top: 0;
+  height: 2px;
+}
+
+.contact ul :last-child{
+  margin-bottom: 24px;
+}
+.contact ul > li{
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.contact ul > li > a, .contact ul > li > strong{
+    margin-bottom: 20px;
+}
+
+.message ul > li{
+  list-style-type: none;
+}
+.message ul > li > p, .message ul > li > strong{
+  margin-top: 0;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.message {
+  grid-area: message;
+}
+
+.blog {
+  grid-area: blog;
+}
+
+.wrapper {
+  margin: 1em;
+
+  display: grid;
+  grid-gap: 1em;
+  grid-template-areas:
+    "contact"
+    "message"
+    "blog";
+}
+
+@media only screen and (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "contact"
+      "message"
+      "blog";
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    grid-gap: 20px;
+    grid-template-columns: auto 35%;
+    grid-template-areas:
+      "contact  blog"
+      "message blog";
+  }
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.contact {
+  background-color: #999;
+}
+
+.blog {
+  background-color: #ccc;
+  color: #444;
+}
