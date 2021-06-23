@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<htmllang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>DOM -AufbauSeiteper JS</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <style>
+        .wichtig {
+            color: red;
+            }
+
+        .nochWichtiger{
+            font-weight: bold;
+        }
+        #absatz{
+            font-size: 30px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <script>
+            let bodyElement = document.body;
+            let newParagraph = document.createElement("p");
+            let paragraphContent = document.createTextNode("absatz");
+            newParagraph.setAttribute("id", "absatz");
+
+            let list = document.createElement("ul");
+            let firstItem = document.createElement("li");
+            let secItem = document.createElement("li");
+            let thirdItem = document.createElement("li");
+
+            let firstItemCon = document.createTextNode("Erstes Element");
+            let secItemCon = document.createTextNode("Zweites Element");
+            let thirdItemCon = document.createTextNode("Drittes Element");
+
+            firstItem.style.textDecoration = "line-through";
+
+            secItem.style.color = "red";
+
+            firstItem.appendChild(firstItemCon);
+            secItem.appendChild(secItemCon);
+            thirdItem.appendChild(thirdItemCon);
+
+            let listItems = [firstItem, secItem, thirdItem]
+            for(item of listItems){
+                list.appendChild(item);
+            }
+
+
+            newParagraph.appendChild(paragraphContent);
+
+            newParagraph.addEventListener("click", achtung, false)
+
+            bodyElement.appendChild(newParagraph);
+            bodyElement.appendChild(list);
+
+
+            function achtung() {
+                if(this.style.backgroundColor == "yellow"){
+                    this.style.backgroundColor= "white";
+                } else {
+                this.style.backgroundColor= "yellow";
+                }
+
+            }
+        </script>
+    </body>
+</html>
