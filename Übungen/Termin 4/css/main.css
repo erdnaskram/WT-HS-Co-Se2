@@ -119,15 +119,30 @@ footer {
   justify-content: space-between;
   background-color: #666;
 }
-footer ul{
+#rechtliches{
   float: right;
+  padding-top: 15px;
 }
-footer ul > li{
+#rechtliches > li{
   list-style-type: none;
   float: left;
   margin-right: 10px;
 }
-footer ul li >a {
+#rechtliches li >a {
+  text-decoration: none;
+  color: #eaebeb;
+}
+#social{
+  float: left;
+  padding-left: 0px;
+}
+#social > li{
+  list-style-type: none;
+  float: left;
+  margin-left: 10px;
+  max-height: 50px;
+}
+#social li >a {
   text-decoration: none;
   color: #eaebeb;
 }

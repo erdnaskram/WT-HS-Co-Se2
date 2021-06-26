@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/kompetenzen.css">
+        <script src="js/kompetenzen.js"></script>
+
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
         <title>Portfolio</title>
     </head>
@@ -27,39 +29,95 @@
             </ul>
         </nav>
         <main class="wrapper">
-            <section class="box personal">
-                <h2>Persönliches</h2>
-                <hr class="line">
-                <ul>
-                    <li>
-                        <strong>Name:</strong><br>
-                        <strong>Geburtstag:</strong><br>
-                        <strong>Status:</strong>
-                    </li>
-                    <li>
-                        <a>Christoph Marks</a><br>
-                        <a>24.11.1999</a><br>
-                        <a>Studi</a>
-                    </li>
-                </ul>
+            <section id="webSection" class="box web skill">
+                <h2 onclick="expand('webSection','webBox')">Webentwicklung</h2>
+                <div id="webBox" class="content">
+                    <hr class="line">
+                    <ul>
+                        <li>
+                            <strong>Name:</strong><br>
+                            <strong>Geburtstag:</strong><br>
+                            <strong>Status:</strong>
+                        </li>
+                        <li>
+                            <a>Christoph Marks</a><br>
+                            <a>24.11.1999</a><br>
+                            <a>Studi</a>
+                        </li>
+                    </ul>
+                </div>
             </section>
-            <section class="box career">
-                <h2>Karriere & Ausbildung</h2>
-                <hr class="line">
-                <ul>
-                    <li>
-                        <strong>14.01.2001 bis 14.01.2011</strong>
-                        <P>Saufgrundkurs</P>
-                    </li>
-                    <li>
-                        <strong>15.01.2011 bis 25.03.2020</strong>
-                        <P>Schule & Co</P>
-                    </li>
-                    <li>
-                        <strong>26.03.2020 bis Heute</strong>
-                        <P>Coronaaaaaaaaa :(</P>
-                    </li>
-                </ul>
+            <section id="swSection" class="box sw skill">
+                <h2 onclick="expand('swSection','swBox')">Softwareentwicklung</h2>
+                <div id="swBox" class="content">
+                    <hr class="line">
+                    <ul>
+                        <li>
+                            <strong>Name:</strong><br>
+                            <strong>Geburtstag:</strong><br>
+                            <strong>Status:</strong>
+                        </li>
+                        <li>
+                            <a>Christoph Marks</a><br>
+                            <a>24.11.1999</a><br>
+                            <a>Studi</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="gdSection" class="box gd skill">
+                <h2 onclick="expand('gdSection','gdBox')">Persönliches</h2>
+                <div id="gdBox" class="content">
+                    <hr class="line">
+                    <ul>
+                        <li>
+                            <strong>Name:</strong><br>
+                            <strong>Geburtstag:</strong><br>
+                            <strong>Status:</strong>
+                        </li>
+                        <li>
+                            <a>Christoph Marks</a><br>
+                            <a>24.11.1999</a><br>
+                            <a>Studi</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="langSection" class="box lang skill">
+                <h2 onclick="expand('langSection','langBox')">Persönliches</h2>
+                <div id="langBox" class="content">
+                    <hr class="line">
+                    <ul>
+                        <li>
+                            <strong>Name:</strong><br>
+                            <strong>Geburtstag:</strong><br>
+                            <strong>Status:</strong>
+                        </li>
+                        <li>
+                            <a>Christoph Marks</a><br>
+                            <a>24.11.1999</a><br>
+                            <a>Studi</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="elseSection" class="box else skill">
+                <h2 onclick="expand('elseSection','elseBox')">Persönliches</h2>
+                <div id="elseBox" class="content">
+                    <hr class="line">
+                    <ul>
+                        <li>
+                            <strong>Name:</strong><br>
+                            <strong>Geburtstag:</strong><br>
+                            <strong>Status:</strong>
+                        </li>
+                        <li>
+                            <a>Christoph Marks</a><br>
+                            <a>24.11.1999</a><br>
+                            <a>Studi</a>
+                        </li>
+                    </ul>
+                </div>
             </section>
             <section class="box blog">
                 <h2>Blog</h2>
@@ -75,8 +133,12 @@
         </main>
         <hr>
         <footer>
-            <h4>footer</h4>
-            <ul>
+            <ul id="social">
+                <li><a href="https://www.google.com/search?q=facebook"><img src="assets/img/fb.png"></a></li>
+                <li><a href="https://www.google.com/search?q=twitter"><img src="assets/img/tw.png"></a></li>
+                <li><a href="https://www.google.com/search?q=xing"><img src="assets/img/xi.png"></a></li>
+            </ul>
+            <ul id="rechtliches">
                 <li><a href="https://www.google.com/search?q=netzwerk&oq=netzwerk&aqs=chrome..69i57j0i433l3j0i131i433j0i433l2j0j0i433j0.2023j0j7&sourceid=chrome&ie=UTF-8">Netzwerk</a></li>
                 <li><a href="https://www.google.com/search?q=impressum&oq=impressum&aqs=chrome.0.69i59j0i433j0j0i433j0l6.2023j0j9&sourceid=chrome&ie=UTF-8">Impressum</a></li>
             </ul>

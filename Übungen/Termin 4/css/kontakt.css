@@ -24,31 +24,60 @@
   margin-top: 0;
 }
 
+
+.wrapper{
+  display: grid;
+  grid-gap: 1em;
+}
+
 .contact {
   grid-area: contact;
 }
-
 .message {
   grid-area: message;
 }
-
 .blog {
   grid-area: blog;
 }
 
-.wrapper {
+#mainWrapper{
   margin: 1em;
 
   display: grid;
   grid-gap: 1em;
+
   grid-template-areas:
     "contact"
     "message"
     "blog";
 }
 
+#feedback{ grid-area: fb;}
+#d1{ grid-area: d1;}
+#i1{ grid-area: i1;}
+#d2{ grid-area: d2;}
+#i2{ grid-area: i2;}
+#d3{ grid-area: d3;}
+#i3{ grid-area: i3;}
+#d4{ grid-area: d4;}
+#i4{
+  grid-area: i4;
+  height: 56px;
+  width: auto;
+}
+
+#contactWrapper{
+  grid-template-columns: 110px auto;
+  grid-template-areas:
+  "fb fb"
+  "d1 i1"
+  "d2 i2"
+  "d3 i3"
+  "d4 i4";
+}
+
 @media only screen and (min-width: 500px) {
-  .wrapper {
+  #mainWrapper {
     grid-template-columns: auto;
     grid-template-areas:
       "contact"
@@ -58,7 +87,7 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .wrapper {
+  #mainWrapper {
     grid-gap: 20px;
     grid-template-columns: auto 35%;
     grid-template-areas:
@@ -82,4 +111,8 @@
 .blog {
   background-color: #ccc;
   color: #444;
+}
+
+.description{
+  margin: 0;
 }
