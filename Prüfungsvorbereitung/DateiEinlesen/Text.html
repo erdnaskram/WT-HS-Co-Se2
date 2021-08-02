@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <script>
+            function httpGet(){
+                let request = new XMLHttpRequest();
+                request.onreadystatechange = function(){
+                    if(this.readyState == 4 && this.status == 200){
+                        let text = document.body.children[0].childNodes[0]; //1. Element auf der Seite
+                        text.nodeValue=this.responseText;
+                    }
+                }
+                request.open("get","datei.txt",true);
+                request.send;
+            }
+
+            function init(){
+                "use strickt";
+                document.getElementById("button").addEventListener("click",httpGet,false);
+            }
+            window.onload=init;
+        </script>
+    </head>
+    <body>
+
+        <h1>Hello World</h1>
+        <button id="button">jo</button>
+    </body>
+</html>

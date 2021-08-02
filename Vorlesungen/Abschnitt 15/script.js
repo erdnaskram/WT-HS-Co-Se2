@@ -1,27 +1,19 @@
 
 function changeText(){
-    let xmlHttp = new XMLHttpRequest();
-    xmlHttp.onreadystatechange = function(){
-        if (xmlHttp.readyState == 4){
-            let serverResponse
-            if (xmlHttp.status == 200){
-                serverResponse = responseText;
-            } else {
-                serverResponse = "ERROR";
-            }
-            // alert(serverResponse);
-            // document.body.firstChild.nextSibling.innerHTML = serverResponse;
+    let request = new XMLHttpRequest();
+    request.onreadystatechange = function(){
+        if (request.readyState == 4 && request.status == 200){
 
-            let purchaseOrder = JSON.parse(xmlHttp.responseText);
+            let purchaseOrder = JSON.parse(request.responseText);
 
             for (let i = 0; i< purchaseOrder.length; i  ++){
-                let bestellNr= kinder[i].attributes[0].nodeValue;
-                let bestellDat= kinder[i].attributes[1].nodeValue;
-                // alert("Bestellung NR: " + bestellNr + " vom " + bestellDat);
-                document.body.firstChild.nextSibling.innerHTML += "<br>Bestellung NR: " + bestellNr + " vom " + bestellDat;
+                let p = document.createElement("p");
+                        let textNode = document.createTextNode("Bestellung Nr. " +purchaseOrder[i].PurchaseOrderNumber+" vom "+purchaseOrder[i].OrderDate);
+                        p.appendChild(textNode);
+                        document.body.children[0].appendChild(p);
             }
         }
     }
-    xmlHttp.open("GET", "PurchaseOrders.XML", true);
-    xmlHttp.send(null);
+    request.open("GET", "Purchase.JSON", true);
+    request.send(null);
 }
