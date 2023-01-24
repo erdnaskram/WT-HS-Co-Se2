@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script type="module" src="app.js"></script>
+
+    <title>KML Übung</title>
+  </head>
+
+  <body id="app">
+    <div id="logoSwitch">
+        <a>
+            <img src="./Vue.js_Logo_2.svg">
+        </a>
+    </div>
+      <h1 id="test">Meine Bestellung anzeigen lassen
+        <p v-for="order in purchaseOrder">{{ "Bestellung Nr. " + order.PurchaseOrderNumber+ " vom " + order.OrderDate }}</p>
+      </h1>
+      <button v-on:click="getData()" >GO</button>
+  </body>
+</html>
